@@ -4,11 +4,9 @@ import HomePage from '../pages/HomePage'
 
 const PageContent = () => {
   return ( 
-  <Router>
       <Switch>
         <Route exact path="/" component={HomePage} />
       </Switch>
-    </Router>
   )
 }
 
