@@ -9,16 +9,16 @@ const Header = () => {
       <div className='flex justify-between'>
         <h3>Bandage</h3>
         <div className='flex gap-6 items-center'>
-          <div className='hover:bg-gray-400 rounded-full p-1'>
+          <div className='hover:bg-gray-300 rounded-full p-1'>
             <User />
           </div>
-          <div className='hover:bg-gray-400 rounded-full p-1'>
+          <div className='hover:bg-gray-300 rounded-full p-1'>
             <Search />
           </div>
-          <div className='hover:bg-gray-400 rounded-full p-1'>
+          <div className='hover:bg-gray-300 rounded-full p-1'>
             <ShoppingCart />
           </div>
-          <div onClick={()=>setMenuOpen((prev)=>!prev)} className='hover:bg-gray-400  rounded-full p-1'>
+          <div onClick={()=>setMenuOpen((prev)=>!prev)} className='hover:bg-gray-300  rounded-full p-1'>
             <Menu />
           </div>
         </div>
