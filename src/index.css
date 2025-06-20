@@ -12,12 +12,65 @@
 
     --color-text-color: #252B42;
     --color-second-text-color: #737373;
+    --color-light-text-color: #FFFFFF;
+    --color-primary-color: #23A6F0;
 }
 
 @layer base {
   h3 {
     font-size: var(--text-2xl);
     font-weight: 700;
+  }
+  h6{
+    font-size: var(--text-sm);
+    font-weight: 600;
+  }
+}
+
+@layer components {
+  .h1 {
+    font-size: 58px;
+    font-weight: 800;
+  }
+  .h2 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .h3 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .h4 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .h5 {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .h6 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .btn-text {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .mobile-menu {
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .paragraph {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .list {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .link {
+    font-size: 14px;
+    font-weight: 600;
   }
 }
 
