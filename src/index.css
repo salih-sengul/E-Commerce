@@ -1,19 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-@import 'tailwindcss';
+@import "tailwindcss";
 
 :root {
-  font-family: 'Montserrat', sans-serif;
-
-
+  font-family: "Montserrat", sans-serif;
 }
 
-@theme{
-
-    --color-text-color: #252B42;
-    --color-second-text-color: #737373;
-    --color-light-text-color: #FFFFFF;
-    --color-primary-color: #23A6F0;
+@theme {
+  --color-text-color: #252b42;
+  --color-second-text-color: #737373;
+  --color-light-text-color: #ffffff;
+  --color-primary-color: #23a6f0;
 }
 
 @layer base {
@@ -21,7 +18,7 @@
     font-size: var(--text-2xl);
     font-weight: 700;
   }
-  h6{
+  h6 {
     font-size: var(--text-sm);
     font-weight: 600;
   }
@@ -74,9 +71,6 @@
   }
 }
 
-body{
-    color: #252B42;
+body {
+  color: #252b42;
 }
-
-
-
