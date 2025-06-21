@@ -26,6 +26,7 @@ const DropdownMenu = () => {
               Belts
             </a>
           </MenuItem>
+
           <MenuItem>
             <a className="block data-focus:bg-blue-100" href="/notifications">
               Cosmetics
