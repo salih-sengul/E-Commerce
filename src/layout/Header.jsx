@@ -16,6 +16,7 @@ import {
 } from "lucide-react";
 import React, { useState } from "react";
 import DropdownMenu from "../components/DropdownMenu";
+import NavBar from "../components/NavBar";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -68,6 +69,7 @@ const Header = () => {
         <div className="mx-auto flex max-w-[1440px] p-9 lg:p-6">
           <h3 className="w-[187px]">Bandage</h3>
           <div className="flex w-full justify-end lg:justify-between">
+            <NavBar />
             <nav className="hidden items-center lg:flex">
               <ul className="flex gap-5 text-sm font-semibold">
                 <li>
