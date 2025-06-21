@@ -14,39 +14,70 @@ const NavBar = () => {
     <NavigationMenu viewport={false}>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
+          <NavigationMenuLink asChild>
+            <a href="/docs">Home</a>
+          </NavigationMenuLink>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <NavigationMenuTrigger>My account</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <div className="flex gap-4">
+            <div className="text-second-text-color link flex gap-10">
               <div>
-                Kadın
+                <span className="text-text-color">Kadın</span>
                 <ul>
                   <li>
                     <NavigationMenuLink>
-                      {" "}
-                      <a href="">Link</a>{" "}
+                      <a href="">Bags</a>
                     </NavigationMenuLink>
                   </li>
-                  <li className="row-span-3">
+                  <li>
                     <NavigationMenuLink>
-                      {" "}
-                      <a href="">Link</a>{" "}
+                      <a href="">Belts</a>
+                    </NavigationMenuLink>
+                  </li>
+                  <li>
+                    <NavigationMenuLink>
+                      <a href="">Cosmetics</a>
+                    </NavigationMenuLink>
+                  </li>
+                  <li>
+                    <NavigationMenuLink>
+                      <a href="">Bags</a>
+                    </NavigationMenuLink>
+                  </li>
+                  <li>
+                    <NavigationMenuLink>
+                      <a href="">Hats</a>
                     </NavigationMenuLink>
                   </li>
                 </ul>
               </div>
               <div>
-                Kadın
+                <span className="text-text-color">Erkek</span>
                 <ul>
                   <li>
                     <NavigationMenuLink>
-                      {" "}
-                      <a href="">Link</a>{" "}
+                      <a href="">Bags</a>
                     </NavigationMenuLink>
                   </li>
-                  <li className="row-span-3">
+                  <li>
                     <NavigationMenuLink>
-                      {" "}
-                      <a href="">Link</a>{" "}
+                      <a href="">Belts</a>
+                    </NavigationMenuLink>
+                  </li>
+                  <li>
+                    <NavigationMenuLink>
+                      <a href="">Cosmetics</a>
+                    </NavigationMenuLink>
+                  </li>
+                  <li>
+                    <NavigationMenuLink>
+                      <a href="">Bags</a>
+                    </NavigationMenuLink>
+                  </li>
+                  <li>
+                    <NavigationMenuLink>
+                      <a href="">Hats</a>
                     </NavigationMenuLink>
                   </li>
                 </ul>
@@ -55,14 +86,24 @@ const NavBar = () => {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <ul className="grid gap-2">
-              <li className="row-span-3">
-                <NavigationMenuLink>Link</NavigationMenuLink>
-              </li>
-            </ul>
-          </NavigationMenuContent>
+          <NavigationMenuLink asChild>
+            <a href="/about">About</a>
+          </NavigationMenuLink>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <NavigationMenuLink asChild>
+            <a href="/blog">Blog</a>
+          </NavigationMenuLink>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <NavigationMenuLink asChild>
+            <a href="/contact">Contact</a>
+          </NavigationMenuLink>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <NavigationMenuLink asChild>
+            <a href="/pages">Pages</a>
+          </NavigationMenuLink>
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>

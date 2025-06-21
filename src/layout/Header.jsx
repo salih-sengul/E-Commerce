@@ -69,8 +69,11 @@ const Header = () => {
         <div className="mx-auto flex max-w-[1440px] p-9 lg:p-6">
           <h3 className="w-[187px]">Bandage</h3>
           <div className="flex w-full justify-end lg:justify-between">
-            <NavBar />
-            <nav className="hidden items-center lg:flex">
+            <div className="hidden lg:inline">
+              <NavBar />
+            </div>
+
+            <nav className="hidden items-center">
               <ul className="flex gap-5 text-sm font-semibold">
                 <li>
                   <a href="">Home</a>
