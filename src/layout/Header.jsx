@@ -16,10 +16,10 @@ import {
 } from "lucide-react";
 import React, { useState } from "react";
 import DropdownMenu from "../components/DropdownMenu";
+import NavBar from "../components/NavBar";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [dropdownOpen, setdropdownOpen] = useState(false);
 
   return (
     <div className="">
@@ -68,7 +68,11 @@ const Header = () => {
         <div className="mx-auto flex max-w-[1440px] p-9 lg:p-6">
           <h3 className="w-[187px]">Bandage</h3>
           <div className="flex w-full justify-end lg:justify-between">
-            <nav className="hidden items-center lg:flex">
+            <div className="hidden lg:inline">
+              <NavBar />
+            </div>
+
+            <nav className="hidden items-center">
               <ul className="flex gap-5 text-sm font-semibold">
                 <li>
                   <a href="">Home</a>
@@ -117,7 +121,7 @@ const Header = () => {
                 </div>
                 <div
                   onClick={() => setMenuOpen((prev) => !prev)}
-                  className="flex hidden items-center rounded-full p-1 hover:bg-gray-300 md:gap-1 lg:flex"
+                  className="hidden items-center rounded-full p-1 hover:bg-gray-300 md:gap-1 lg:flex"
                 >
                   <Heart className="lg:size-4" />
                   <span className="hidden lg:inline">1</span>
@@ -129,7 +133,7 @@ const Header = () => {
         <div
           className={`text-second-text-color ${
             menuOpen ? "flex" : "hidden"
-          } justify-center py-24 text-3xl transition-all`}
+          } justify-center py-24 text-3xl transition-all lg:hidden`}
         >
           <nav>
             <ul className="flex flex-col gap-8">
