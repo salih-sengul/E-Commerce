@@ -17,7 +17,7 @@ function Slider({ className }) {
         {Array.from({ length: 5 }).map((_, index) => (
           <CarouselItem key={index}>
             <div className="text-light-text-color relative flex h-[753px] flex-col items-center justify-center gap-12 px-13 text-center lg:items-start lg:pl-58 lg:text-left">
-              <div className="absolute top-0 left-0 z-[-1] h-full w-full bg-[url('public/assets/slider-p1.png')] bg-cover bg-center"></div>
+              <div className="absolute top-0 left-0 z-[-1] h-full w-full bg-[url('assets/slider-p1.png')] bg-cover bg-center"></div>
               <div className="h5">SUMMER 2020</div>
               <div className="h2 lg:h1">NEW COLLECTION</div>
               <div className="h4 text-primary-foreground lg:max-w-[369px]">
