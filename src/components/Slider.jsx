@@ -24,7 +24,7 @@ function Slider({ className }) {
                 We know how large objects will act, but things on a small scale.
               </div>
               <Button
-                variant={"secondary"}
+                variant={"success"}
                 size={"lg"}
                 className="h3 bg-success-color text-light-text-color rounded-b-none"
               >
