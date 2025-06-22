@@ -20,7 +20,6 @@ import NavBar from "../components/NavBar";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [dropdownOpen, setdropdownOpen] = useState(false);
 
   return (
     <div className="">
@@ -122,7 +121,7 @@ const Header = () => {
                 </div>
                 <div
                   onClick={() => setMenuOpen((prev) => !prev)}
-                  className="flex hidden items-center rounded-full p-1 hover:bg-gray-300 md:gap-1 lg:flex"
+                  className="hidden items-center rounded-full p-1 hover:bg-gray-300 md:gap-1 lg:flex"
                 >
                   <Heart className="lg:size-4" />
                   <span className="hidden lg:inline">1</span>
@@ -134,7 +133,7 @@ const Header = () => {
         <div
           className={`text-second-text-color ${
             menuOpen ? "flex" : "hidden"
-          } justify-center py-24 text-3xl transition-all`}
+          } justify-center py-24 text-3xl transition-all lg:hidden`}
         >
           <nav>
             <ul className="flex flex-col gap-8">

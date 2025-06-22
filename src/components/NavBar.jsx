@@ -15,15 +15,17 @@ const NavBar = () => {
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuLink asChild>
-            <a href="/docs">Home</a>
+            <a href="/">Home</a>
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuTrigger>My account</NavigationMenuTrigger>
+          <NavigationMenuTrigger className="link text-second-text-color">
+            Shop
+          </NavigationMenuTrigger>
           <NavigationMenuContent>
             <div className="text-second-text-color link flex gap-10">
               <div>
-                <span className="text-text-color">Kadın</span>
+                <span className="text-text-color p-2">Kadın</span>
                 <ul>
                   <li>
                     <NavigationMenuLink>
@@ -53,7 +55,7 @@ const NavBar = () => {
                 </ul>
               </div>
               <div>
-                <span className="text-text-color">Erkek</span>
+                <span className="text-text-color p-2">Erkek</span>
                 <ul>
                   <li>
                     <NavigationMenuLink>

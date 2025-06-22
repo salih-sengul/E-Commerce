@@ -12,7 +12,7 @@ import React from "react";
 const DropdownMenu = () => {
   return (
     <Menu>
-      <MenuButton>My account</MenuButton>
+      <MenuButton className="link">Shop</MenuButton>
       <MenuItems anchor="bottom" className={"flex gap-2 border-0 p-4"}>
         <MenuSection className={"flex w-[186px] flex-col gap-4"}>
           <MenuHeading className="font-bold">Kadın</MenuHeading>

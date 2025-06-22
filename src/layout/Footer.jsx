@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div>
       Footer
-      <Button>Click me</Button>
+      <Button variant={"ghost"}>Click me</Button>
     </div>
   );
 };
