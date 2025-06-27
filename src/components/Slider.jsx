@@ -1,6 +1,3 @@
-import SliderPng from "../assets/slider-p1.png";
-
-import { Card, CardContent } from "@/components/ui/card";
 import {
   Carousel,
   CarouselContent,
