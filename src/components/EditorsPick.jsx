@@ -3,7 +3,7 @@ import EditorsPickCard from "./EditorsPickCard";
 
 const EditorsPick = () => {
   return (
-    <div className="bg-sidebar flex min-h-screen items-center justify-center">
+    <div className="bg-sidebar flex min-h-screen justify-center">
       <div className="mx-10 flex w-full max-w-[1050px] flex-col items-center gap-12 py-20">
         <div className="flex flex-col items-center">
           <div className="h3 text-text-color">EDITOR'S PICK</div>
