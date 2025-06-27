@@ -25,7 +25,7 @@ function Slider({ className }) {
                 <Button
                   variant={"success"}
                   size={"lg"}
-                  className="h3 bg-success-color text-light-text-color rounded-b-none"
+                  className="font bold bg-success-color text-light-text-color rounded-none"
                 >
                   SHOP NOW
                 </Button>
