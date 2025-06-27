@@ -1,3 +1,4 @@
+import BestSeller from "@/components/BestSeller";
 import EditorsPick from "@/components/EditorsPick";
 import Gemini from "@/components/gemini";
 import Slider from "@/components/Slider";
@@ -12,6 +13,7 @@ const HomePage = () => {
         </div>
       </div>
       <EditorsPick />
+      <BestSeller />
     </div>
   );
 };
