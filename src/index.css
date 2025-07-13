@@ -42,6 +42,7 @@
   --sidebar-ring: oklch(0.708 0 0);
   --success-color: oklch(71.5% 0.16697 153.9);
   --secondary-color-1: oklch(55.5% 0.096045 172.5);
+  --muted-text-color: oklch(79.9% 0 0);
 }
 
 @layer base {
@@ -149,6 +150,7 @@ body {
   --color-slider-bg: #00b5da;
   --color-success-color: oklch(71.5% 0.16697 153.9);
   --color-secondary-color-1: var(--secondary-color-1);
+  --color-muted-text-color: var(--muted-text-color);
 }
 
 .dark {
