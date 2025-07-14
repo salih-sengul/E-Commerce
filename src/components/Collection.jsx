@@ -11,7 +11,7 @@ import { Button } from "./ui/button";
 export const Collection = () => {
   return (
     <div className="flex items-center justify-center">
-      <div className="mx-10 flex max-w-[1050px] flex-col gap-7 lg:h-[689px] lg:flex-row lg:gap-10">
+      <div className="mx-10 flex max-w-[1050px] flex-col gap-7 pt-32 lg:h-[689px] lg:flex-row lg:gap-10 lg:pt-0">
         <div className="order flex w-full flex-col items-center justify-center gap-7 text-center lg:order-last lg:items-start lg:text-left">
           <div className="h5 text-muted-text-color">SUMMER 2020</div>
           <div className="h2">Part of the Neural Universe</div>
